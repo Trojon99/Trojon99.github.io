@@ -93,6 +93,13 @@
 					<a class="mail" target="_blank" href="mailto:793247759@qq.com" title="mail"><i class="icon-mail"></i></a>
 		        
 			</div>
+            <!-- 网易云音乐插件 -->
+         
+             <div style="position:absolute; bottom:120px left:auto; width:85%">
+				<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=260 height=86 src="//music.163.com/outchain/player?type=2&id=30431375&auto=1&height=32"></iframe>
+
+				<div>
+		
 		</nav>
 	</header>		
 </div>
@@ -286,7 +293,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/messages/" alt="微信分享二维码">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://trojon99.github.io/essages/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -368,6 +375,8 @@
 
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
+<!--页面点击小红心-->
+<script type="text/javascript" src="/love.js"></script>
 
 
 
@@ -446,6 +455,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">随笔</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>
